@@ -46,3 +46,9 @@ Route::get('/frameworks/js', function () {
 Route::get('/php/comentarios', function () {
     return view('exemplos.php_comentarios');
 });
+
+Route::get('/condicional/if', function () {
+    return view('exemplos.condicional_if', [
+        'comentarios' => -3
+    ]);
+});
