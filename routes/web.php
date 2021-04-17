@@ -23,3 +23,18 @@ Route::get('/passagem/dados', function () {
         'descricao' => 'Escola de desenvolvimento'
     ]);
 });
+
+Route::get('/exibicao/json', function () {
+    return view('exemplos.exibicao_json')->with([
+        'posts' => [
+            [
+                "titulo" => "Novidades do Laravel",
+                "conteudo" => "Nesta versão o Laravel ..."
+            ],
+            [
+                "titulo" => "Novidades do Blade",
+                "conteudo" => "Nesta versão o Blade ..."
+            ],
+        ],
+    ]);
+});
