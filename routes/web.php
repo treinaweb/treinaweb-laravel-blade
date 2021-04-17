@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/passagem/dados', function () {
     return view('exemplos.passagem_dados')->with([
-        'nome' => 'TreinaWeb',
+        'nome' => 'TreinaWeb <script>alert("Executei")</script>',
         'descricao' => 'Escola de desenvolvimento'
     ]);
 });
