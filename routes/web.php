@@ -42,3 +42,7 @@ Route::get('/exibicao/json', function () {
 Route::get('/frameworks/js', function () {
     return view('exemplos.frameworks_js');
 });
+
+Route::get('/php/comentarios', function () {
+    return view('exemplos.php_comentarios');
+});
