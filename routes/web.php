@@ -49,6 +49,6 @@ Route::get('/php/comentarios', function () {
 
 Route::get('/condicional/if', function () {
     return view('exemplos.condicional_if', [
-        'comentarios' => -3
+        'comentarios' => 3
     ]);
 });

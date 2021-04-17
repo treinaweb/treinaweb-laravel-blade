@@ -7,3 +7,11 @@
 @else
     <h1>Não temos comentários</h1>    
 @endif
+
+@if ($comentarios < 0)
+    <h1>Valor invalido de comentários</h1>
+@endif
+
+@unless ($comentarios > 0)
+    <h1>Valor invalido de comentários</h1>
+@endunless
