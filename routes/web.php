@@ -52,3 +52,9 @@ Route::get('/condicional/if', function () {
         'comentarios' => 3
     ]);
 });
+
+Route::get('/condicional/switch', function () {
+    return view('exemplos.condicional_switch', [
+        'mes' => 13
+    ]);
+});
