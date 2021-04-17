@@ -38,3 +38,7 @@ Route::get('/exibicao/json', function () {
         ],
     ]);
 });
+
+Route::get('/frameworks/js', function () {
+    return view('exemplos.frameworks_js');
+});
