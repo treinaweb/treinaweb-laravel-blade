@@ -55,6 +55,6 @@ Route::get('/condicional/if', function () {
 
 Route::get('/condicional/switch', function () {
     return view('exemplos.condicional_switch', [
-        'mes' => 13
+        'mes' => ''
     ]);
 });
