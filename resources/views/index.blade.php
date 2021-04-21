@@ -79,7 +79,8 @@
                         <h1>Nenhum projeto encontrado</h1>    
                     @endforelse
 
-                    @includeFirst(['site.parciais._paginacao', 'parciais._paginacao', 'main._paginacao'])
+                    @include('site.parciais._paginacao', ['first'=>'<<', 'last'=>'>>'])
+                    {{-- @includeFirst(['site.parciais._paginacao', 'parciais._paginacao', 'main._paginacao']) --}}
                 </div>
             </div>
         </section>
