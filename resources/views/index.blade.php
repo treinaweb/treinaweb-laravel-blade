@@ -79,7 +79,7 @@
                         <h1>Nenhum projeto encontrado</h1>    
                     @endforelse
 
-                    @include('parciais._paginacao')
+                    @includeFirst(['site.parciais._paginacao', 'parciais._paginacao', 'main._paginacao'])
                 </div>
             </div>
         </section>
