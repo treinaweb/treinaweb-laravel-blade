@@ -79,13 +79,7 @@
                         <h1>Nenhum projeto encontrado</h1>    
                     @endforelse
 
-                    <nav aria-label="Page navigation example" style="margin-top: 50px;">
-                        <ul class="pagination pagination-lg">
-                            @for($i=1; $i < 10; $i++)
-                                <li class="page-item"><a class="page-link" href="#">{{ $i }}</a></li>
-                            @endfor
-                        </ul>
-                    </nav>
+                    @include('parciais._paginacao')
                 </div>
             </div>
         </section>
