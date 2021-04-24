@@ -1,5 +1,7 @@
 @extends('heranca.layout')
 
+@section('titulo-pagina', 'Página Inicial')
+
 @section('conteudo-principal')
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">

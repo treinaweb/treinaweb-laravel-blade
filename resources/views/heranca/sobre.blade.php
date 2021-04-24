@@ -1,5 +1,7 @@
 @extends('heranca.layout')
 
+@section('titulo-pagina', 'Página Sobre Mim')
+
 @section('conteudo-principal')
     <!-- About Section-->
     <section class="page-section bg-primary text-white mb-0" id="about">
