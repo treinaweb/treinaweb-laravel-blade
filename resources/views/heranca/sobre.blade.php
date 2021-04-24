@@ -29,3 +29,9 @@
         </div>
     </section>
 @endsection
+
+@section('rodape-texto')
+    <p>Obrigado por acessa meu site</p>
+
+    @parent
+@endsection
