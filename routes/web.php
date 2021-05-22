@@ -1,7 +1,9 @@
 <?php
 
-use App\Http\Controllers\SiteHerancaController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SiteHerancaController;
+use App\Http\Controllers\SiteComponenteController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +20,11 @@ Route::get('/site/heranca', [SiteHerancaController::class, 'home'])->name('site.
 Route::get('/site/heranca/portfolio', [SiteHerancaController::class, 'portfolio'])->name('site.heranca.portfolio');
 Route::get('/site/heranca/sobre', [SiteHerancaController::class, 'sobre'])->name('site.heranca.sobre');
 Route::get('/site/heranca/contato', [SiteHerancaController::class, 'contato'])->name('site.heranca.contato');
+
+Route::get('/site/componente', [SiteComponenteController::class, 'home'])->name('site.componente.home');
+Route::get('/site/componente/portfolio', [SiteComponenteController::class, 'portfolio'])->name('site.componente.portfolio');
+Route::get('/site/componente/sobre', [SiteComponenteController::class, 'sobre'])->name('site.componente.sobre');
+Route::get('/site/componente/contato', [SiteComponenteController::class, 'contato'])->name('site.componente.contato');
 
 
 Route::get('/', function () {
