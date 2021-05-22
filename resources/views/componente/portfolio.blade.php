@@ -289,18 +289,24 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
+                    <x-secao-rodape>
+                        <x-slot name="titulo">
+                            <h4 class="text-uppercase mb-4">Location</h4>
+                        </x-slot>
+                        
                         <p class="lead mb-0">
                             2215 John Daniel Drive
                             <br />
                             Clark, MO 65243
                         </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    </x-secao-rodape>
 
+                    <!-- Footer Social Icons-->
+                    <x-secao-rodape>
+                        <x-slot name="titulo">
+                            <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        </x-slot>
+                        
                         <x-item-social link="facebook">
                             <i class="fab fa-fw fa-facebook-f"></i>
                         </x-item-social>
@@ -313,16 +319,21 @@
                         <x-item-social link="dribbble">
                             <i class="fab fa-fw fa-dribbble"></i>
                         </x-item-social>
-                    </div>
+                    </x-secao-rodape>
+
                     <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <x-secao-rodape>
+                        <x-slot name="titulo">
+                            <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        </x-slot>
+                        
                         <p class="lead mb-0">
                             Freelance is a free to use, MIT licensed Bootstrap theme created by
                             <a href="http://startbootstrap.com">Start Bootstrap</a>
                             .
                         </p>
-                    </div>
+                    </x-secao-rodape>
+                    
                 </div>
             </div>
         </footer>
