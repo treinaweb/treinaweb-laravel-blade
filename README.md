@@ -1,4 +1,4 @@
-# TreinaWeb: curso ["Laravel - Blade Templates"](https://www.treinaweb.com.br/curso/laravel-fundamentos)
+# TreinaWeb: curso ["Laravel - Blade Templates"](https://www.treinaweb.com.br/curso/laravel-blade-templates)
 
 #### Lista de commits
 
