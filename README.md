@@ -1,62 +1,42 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# TreinaWeb: curso ["Laravel - Blade Templates"](https://www.treinaweb.com.br/curso/laravel-fundamentos)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+#### Lista de commits
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+| Aula    | Video                                                | Commit                                                    | Link                                                                                                                  |
+| ------- | ---------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Aula 01 | Ambiente do curso                                    | 01 - Ambiente do curso                                    | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/3d9ea728cee36f8c1562b74f48a89d21ce8b1825.zip) |
+| Aula 01 | Carregamento das Views                               | 02 - Carregamento das Views                               | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/f63cdea7fe07abcabcc916b37f24d1cfa4f677dd.zip) |
+| Aula 01 | Passando dados para a View                           | 03 - Passando dados para a View                           | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/981235421e89d9678fa6644aea4b420f14c0e751.zip) |
+| Aula 02 | Mostrando informações na view                        | 04 - Mostrando informações na view                        | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/115608ab9e2e9f0a90099f1b833f0825438ecff6.zip) |
+| Aula 02 | Renderizando json                                    | 05 - Exibindo conteúdo no formato json                    | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/57ccdd4b9426644c902aaf6248a5f0652c50ee3f.zip) |
+| Aula 02 | Variáveis de frameworks JS                           | 06 - Variáveis de frameworks JS                           | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/2fad5cfad9f3f67c9fc77b8379af1afc7043261f.zip) |
+| Aula 02 | Codigo PHP e comentários                             | 07 - Codigo PHP e comentários                             | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/659170ec5c696bbe5c301fa6f2d30b54f7509bc7.zip) |
+| Aula 03 | Estrutura Condicional IF                             | 08 - Estrutura Condicional IF                             | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/fb8552b94606d430d1160cfe45dd61b95966037b.zip) |
+| Aula 03 | Condicional Unless                                   | 09 - Condicional Unless                                   | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/1c1e094649f956fd14bd4b408baa9b8c17e81cea.zip) |
+| Aula 03 | Switch Case                                          | 10 - Switch Case                                          | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/1783a052788d7584cac43bb22a1410ad87d24f6a.zip) |
+| Aula 03 | Isset e Empty                                        | 11 - Isset e Empty                                        | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/1d568ea74f438f833cdfca0cda47530354df8495.zip) |
+| Aula 04 | Montando página do projeto                           | 12 - Montando página do projeto                           | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/a60e445b0fe37388f8273357141a2fa5b83ba053.zip) |
+| Aula 04 | Loops While e For                                    | 13 - Loops While e For                                    | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/f2eb4bb91eb1cada65511e893d84966405a003a2.zip) |
+| Aula 04 | Foreach e Forelse                                    | 14 - Foreach e Forelse                                    | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/396854bc229c92b2e59b8f1daae292aa759e9bb9.zip) |
+| Aula 04 | Modificadores de Loop                                | 15 - Modificadores de Loop                                | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/346a963cec516ef4bd2d67a2fd9100bcac330b2a.zip) |
+| Aula 04 | Variável loop                                        | 16 - Variável loop                                        | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/7d19eed11ff5a0c5f58a75567afee109da647354.zip) |
+| Aula 05 | Usando subviews                                      | 17 - Usando subviews                                      | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/c6041f17ec305f98f3cf1696f322dad9d4fcd5e6.zip) |
+| Aula 05 | IncludeIf, IncludeWhen e includeFirst                | 19 - Include First                                        | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/7847cc7fe40cc70b8139c8f9ecf55405f48a28cc.zip) |
+| Aula 05 | Passando dados para subview                          | 20 - passando dados para subview                          | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/117c45e316aa221a4a37d6acffc721696ec03545.zip) |
+| Aula 05 | Renderizando coleções com each                       | 21 - Diretiva Each                                        | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/34d7e7c9c8764bc632c229ac266e468bc23e7086.zip) |
+| Aula 06 | Dividindo as páginas em partes                       | 22 - Separando as páginas                                 | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/e5defc71bdcb913720c0aa6ce2d028a2149e72fc.zip) |
+| Aula 06 | Conhecendo o conceito de Herança de templete         | 23 - Conhecendo o conceito de Herança de templete         | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/cdc0f028e429676eb834a683b921a2e251a2c7e5.zip) |
+| Aula 06 | Criando página sobre e contato                       | 24 - Criando página sobre e contato                       | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/6c59dcf006eab713113d13acc4b3276e363a5edb.zip) |
+| Aula 06 | Criando novas Sections                               | 25 - Criando novas Sections                               | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/6d794b1ffe7b142db2f1caa72216e369a80303b7.zip) |
+| Aula 06 | Section com conteúdo padrão                          | 26 - Section com conteúdo padrão                          | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/9f7a30b98dc88ecaa5d3f6f99320060062bd1218.zip) |
+| Aula 07 | Preparando o projeto para os exemplos de componentes | 28 - Criando Rotas e Controller para pasta de componentes | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/050c700c882a5d70553714ebd4ab7eb721d864c0.zip) |
+| Aula 07 | Criando o primeiro componente                        | 29 - Criando o primeiro componente                        | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/e2777cbca814e22be9386f29e401be58cc26f018.zip) |
+| Aula 07 | Recebendo conteúdo no componente                     | 30 - Recebendo conteúdo no componente                     | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/1eda91d6c4131da5ddef4c99b41cbd69cf104119.zip) |
+| Aula 07 | Recebendo Slots adicionais no componente             | 31 - Recebendo Slots adicionais no componente             | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/8bea527b35b638c5c718dd5913e7aa42c530d13a.zip) |
+| Aula 07 | Criando layout com componente                        | 32 - Criando layout com componente                        | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/0027b66f660a8a428d08c9e72a669b985b68a0eb.zip) |
+| Aula 07 | Criando View Sobre e Contato com componente Layout   | 33 - Criando View Sobre e Contato com componente Layout   | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/efc322682b34e4ef9a52f36e9a8700645a6cc242.zip) |
+| Aula 08 | Arquivos de tradução                                 | 34 - Criando arquivos de tradução                         | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/e1d5c84621fe922b07e8eb589e77c823b91dc872.zip) |
+| Aula 08 | Impressão multi-idioma                               | 35 - Mostrando informações em diferentes idiomas          | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/a99564be3ad6ee63993a05c5d0170220e4668d9f.zip) |
+| Aula 08 | Mudando o idioma em tempo de execução                | 36 - Mudando o idioma em tempo de execução                | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/19573e965ecc6fd84de4060258641edad6b4be8a.zip) |
+| Aula 09 | trabalhando com view composer                        | 37 - trabalhando com view composer                        | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/c3a474e4c86355866d28abe2cd2cef5372f466ef.zip) |
+| Aula 09 | Diretiva Stack                                       | 28 - Diretiva Stack                                       | [Download](https://github.com/treinaweb/treinaweb-laravel-blade/archive/52304ad6657d330445a12dff88932e9d1ac59d88.zip) |
